@@ -1,0 +1,31 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = sharora@gmail.com
+	name = sharora
+[commit]
+	template = ~/.gitmessage
+[diff] 
+	algorithm = histogram
+[merge]
+	autostash = true
+[pull] 
+	rebase = true
+[rebase]
+	autoSquash = true
+	autoStash = true
+	abbreviateCommands = true
+[alias]
+	a = add --all
+	cp = cherry-pick
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	co = checkout
+	rb = rebase -i
+	rbc = rebase --continue
+	rba = rbase --abort
+	m = merge
+	ma = merge --abort
+[core]
+	editor = vim
