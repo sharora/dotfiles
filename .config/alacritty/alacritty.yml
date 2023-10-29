@@ -1,0 +1,6 @@
+# Importing theme
+import:
+ - ~/.config/alacritty/themes/themes/doom_one.yaml
+
+font:
+  size: 16.0
